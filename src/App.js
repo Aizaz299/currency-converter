@@ -5,7 +5,13 @@ import CurrencyDropDown from "./CurrencyDropDown";
 export default class App extends React.Component{
 
     render() {
-        return (<CurrencyDropDown/>)
+        return (
+            <div>
+            <CurrencyDropDown/>
+            <CurrencyDropDown/>    
+             </div>
+        
+            )
     }
 
 }

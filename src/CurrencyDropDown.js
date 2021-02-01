@@ -3,17 +3,12 @@ import React from "react"
 
 const CurrencyDropDown = () =>{
     return(
-        <div className="ui selection dropdown">
-                <input type="hidden" name="gender"/>  
-                <i className="dropdown icon"></i>
-                <div className="default text">Gender </div>
-                    <div className="menu">
-                        <div className="item" data-value="1">Male</div>
-                        <div className="item" data-value="0">Female</div>
-                    </div>
-                    
-        </div>
-        
+        <select>
+        <option value="grapefruit">Grapefruit</option>
+        <option value="lime">PKR - Rupees</option>
+        <option selected value="coconut">USD- Dollor</option>
+        <option value="mango">DXB - Dirham </option>
+      </select>
     )
 }
 
